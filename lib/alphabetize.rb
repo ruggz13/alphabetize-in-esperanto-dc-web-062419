@@ -1,4 +1,4 @@
 def alphabetize(arr)
   # code here
-  arr.sort
+  arr.sort_by{|word| word}
 end
